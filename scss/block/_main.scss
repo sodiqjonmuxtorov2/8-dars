@@ -1,0 +1,33 @@
+.main__block {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+
+}
+.main_connect {
+    width: 1040px;
+    text-align: start;
+    align-items: center;
+}
+.main__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 150%;
+    color: #333d4b;
+    padding-bottom: 30px;
+}
+.main__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #333d4b;
+    opacity: 0.8;
+}
+.main_connect {
+    display: flex;
+    gap: 125px;
+}
+.main__img {
+    border-radius: 7px;
+}

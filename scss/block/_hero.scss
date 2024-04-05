@@ -1,0 +1,47 @@
+.hero__content{
+  width: 279px;
+  text-align: center;
+}
+.hero__block{
+  background-image: url('../img/mobile_iphone.svg');
+  background-repeat: no-repeat;
+  padding: 111px 24px 87px 24px;
+  border-radius: 7px;
+}
+.hero__title{
+  font-weight: 900;
+font-size: 28px;
+line-height: 100%;
+color: #fefcf7;
+padding-bottom: 24px;
+}
+.hero__text{
+  font-weight: 400;
+font-size: 15px;
+line-height: 167%;
+color: #fefcf7;
+opacity: 0.8;
+}
+@media screen and (min-width:768px) {
+  .hero__block{
+    background-image: url('../img/ipad.svg');
+    background-repeat: no-repeat;
+    padding: 118px 118px 233px 58px;
+    border-radius: 7px;
+  }
+  .hero__content{
+    width: 397px;
+    text-align: start;
+  }
+}
+@media screen and (min-width:1045px) {
+  .hero__block{
+    background-image: url('../img/komp.svg');
+    background-repeat: no-repeat;
+    border-radius: 7px;
+  }
+  .hero__content{
+    width: 445px;
+    text-align: start;
+  }
+}
